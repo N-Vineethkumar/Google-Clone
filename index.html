@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+body{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Pictures-Night-Sky.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-size: cover;
+}
+.center{
+    width: 60vw;
+    height: 400px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .center img{
+        width: 230px;
+        /* display: flex;
+        justify-content: center;
+        align-items:center;    */
+    }
+    .fav{
+        display: flex;
+        padding: 10px; 
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+    .card{
+        min-width: 90px;
+        width: 19%;
+        height: 50%;
+        /* height: 60%; */
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px; 
+    }
+    .card:hover{
+        opacity: 0.7;
+        background-color: rgba(142, 167, 188, 0.452);
+        .dot{
+            opacity: 0.7;
+        }
+    }
+    .card img{
+        width: 90px;
+        margin: 10px;
+        border-radius: 50%;
+    }
+    #search{
+        width: 29vw;
+        height: 5vh;
+        outline: none;
+        border: none;
+    }
+    .inp{
+        display: flex;
+        background-color: white;
+        padding: 5px;
+        /* margin: 10px; */
+        justify-content: space-around;
+        align-items: center;
+        width: 70%;
+        height: 30vh;
+        border-radius: 50px; 
+    }
+    .dot{
+        position: relative;
+        left: 38%;
+        bottom: 68%;
+        opacity: 0;
+    }
+    .topde{
+        width: 20%;
+        height: 60px;
+        background-color: transparent;
+        display: flex;
+        position:absolute;
+        top: 0;
+        right: 0;
+        justify-content: space-evenly;
+        padding-top: 15px;
+    }
+    .topde a{
+        margin-top: 13px;
+        text-decoration: none;
+        color: white;
+    }
+    .topde a:hover{
+        text-decoration: underline;
+    }
+    .profile{
+        width: 10%;
+        border-radius: 50%;
+    }
+    .profile img{
+        border-radius: 50%;
+    }
+    .profile img:hover{
+        background-color: rgba(153, 136, 136, 0.492);
+        border-radius: 50%;
+        box-shadow: 2px 2px 2px rgba(139, 131, 131, 0.495);
+    }
+    .icon{
+        color: white;
+        padding: 1px;
+        margin: 10px;
+    }
+    .icon:hover{
+        background-color: rgba(141, 127, 127, 0.5);
+        border-radius: 50px;
+    }
+    i{
+        cursor: pointer;
+    }
+    .fa-search{
+        cursor: default;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="center">
+        <img src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo.png" alt="google logo">
+        <div class="inp">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <form action="https://www.google.com/search">
+                <input type="text" name="q" placeholder="Enter URL or search" id="search" >
+            </form>
+            <i class="fa fa-microphone" aria-hidden="true"></i>
+             <i class="fa fa-camera" aria-hidden="true"></i>
+        </div>
+        <div class="fav">
+            <div class="card">
+                <a href="https://openai.com/chatgpt/overview/" target="_blank">
+                    <img src="https://logos-world.net/wp-content/uploads/2023/02/ChatGPT-Logo.png" alt="chatgpt.com">
+                    <!-- <p>chatgpt</p> -->
+                <div class="dot">
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </a>
+            </div>
+            </div>
+            <div class="card">
+                    <img src="https://www.pinclipart.com/picdir/middle/1-13590_copyright-clipart.png" alt="insta.com">
+                    <!-- <p>insta</p> -->
+                    <div class="dot">
+                        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                    </div>
+            </div>
+            <div class="card">
+                    <img src="https://logos.edu.mx/wp-content/uploads/2021/01/YouTube-LOGO.png" alt="youtube.com">
+                    <!-- <p>youtube</p> -->
+                    <div class="dot">
+                        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                    </div>
+                </div>
+            <div class="card">
+                <img src="https://logosmarcas.net/wp-content/uploads/2020/09/Spotify-Emblema.png" alt="spotify.com">
+                <!-- <p>spotify</p> -->
+                <div class="dot">
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </div>
+                
+            </div>
+            <!-- <div class="card">
+                <img src="https://lzd-img-global.slatic.net/g/p/693b3b0fd1a08abfba1d75748af7d700.png_720x720q80.png" alt="insta.com" width="250px">
+                 <p>canvas</p> -->
+                <!-- <div class="dot">
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </div> -->
+            <div class="card">
+                <img src="add.svg" alt="add.com" width="190px">
+                <!-- <p>add</p> -->
+                <div class="dot">
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="topde">
+        <a href="https://mail.google.com/mail/u/0/">Gmail</a>
+        <a href="https://www.google.com/imghp?hl=en&tab=ri&ogbl">Images</a>
+        <div class="profile">
+            <a href="https://labs.google.com/search?source=ntp">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Google_Labs_Icon_%282023%29.svg" alt="google search lab" width="40px">
+            </a>
+        </div>
+        <div class="icon">
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        </div>
+        <div class="profile">
+            <a href="">
+                <img src="nvklogo.png" alt="google search lab" width="40px">
+            </a>
+        </div>
+        
+
+    </div>
+</body>
+</html>
