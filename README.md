@@ -1,1 +1,19 @@
-google clone
+# Google Clone
+
+This is a simple clone of the Google search page created using HTML and CSS. The project replicates the basic layout and design of the Google homepage.
+
+## Features
+- **Search Bar**: An input field where users can type their search queries.
+- **Buttons**: Includes "Google Search" and "I'm Feeling Lucky" buttons.
+- **Google Logo**: Displays the Google logo at the top center of the page.
+- **Footer**: Contains links similar to the footer on the Google homepage.
+
+## Usage
+To view the project, visit the [GitHub page]().
+
+## Technologies Used
+- HTML5
+- CSS3
+
+## Screenshots
+![Google Clone Screenshot](path/to/screenshot.png)
