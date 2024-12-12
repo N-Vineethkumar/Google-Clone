@@ -8,7 +8,7 @@ This is a simple clone of the Google search page created using HTML and CSS. The
 - **Footer**: Contains links similar to the footer on the Google homepage.
 
 ## Usage
-To view the project, visit the [GitHub page](https://n-vineethkumar.github.io/Google-Clone/).
+To view the project, visit the [GitHub page](https://vineethkumar-google-clone.netlify.app).
 
 ## Technologies Used
 - HTML5
